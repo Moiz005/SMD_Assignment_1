@@ -6,17 +6,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_vertical"
+        android:padding="30dp"
         >
         <ImageView
             android:src="@drawable/logo"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:contentDescription="@string/app_logo"
+            android:layout_centerInParent="true"
             >
         </ImageView>
-    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="from"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#6f8384"
+                >
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muhammad Moiz"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#97474a"
+                >
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
