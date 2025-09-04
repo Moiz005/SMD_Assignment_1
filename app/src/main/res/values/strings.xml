@@ -2,4 +2,7 @@
     <string name="app_name">Assignment_1</string>
     <string name="app_logo">Logo of the application</string>
     <string name="socially">Socially</string>
+    <string name="signup_btn">Create an Account</string>
+    <string name="login_btn">Log in</string>
+    <string name="profile_pic_desc">Profile Pic of account</string>
 </resources>

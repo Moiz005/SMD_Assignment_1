@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         lifecycleScope.launch {
             delay(3000)
-            startActivity(Intent(this@MainActivity, LoginActivity::class.java))
+            startActivity(Intent(this@MainActivity, SignupActivity::class.java))
             finish()
         }
     }
